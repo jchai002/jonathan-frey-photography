@@ -47,9 +47,9 @@
   <div class="small-12 medium-6 columns">
   <h2>Paul</h2>
   <ul class="clearing-thumbs clearing-feature" data-clearing>
-    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@paul.first.public_key, :width=>500, :height=>500), cl_image_path(@paul.first.public_key)%></div></li>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@paul[4].public_key, :width=>500, :height=>500), cl_image_path(@paul[4].public_key)%></div></li>
     <%@paul.each do |pic|%>
-    <%next if pic == @paul.first %>
+    <%next if pic == @paul[4] %>
     <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
     <%end%>
   </ul>
