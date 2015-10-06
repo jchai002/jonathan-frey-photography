@@ -7,17 +7,5 @@ class MainController < ApplicationController
 
     @sierra= SierraleonePicture.all
   end
-
-  def about
-  	render :"about"
-  end
-
-  def projects
-  	render :"projects"
-  end
-
-  def resume
-  	render :"resume"
-  end
   
 end
