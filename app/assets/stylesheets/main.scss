@@ -1,0 +1,168 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$jet : #222222;
+$steel: #e6e6e6;
+$footer-color: rgba( #666666, 0.3 );
+
+
+body{
+	background-color:$steel;
+}
+
+.banner {
+	position:absolute;
+	height:330px;
+	width:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("https://chronosoilandgas.com/Images/new-york-skyline.jpg");
+  background-repeat: no-repeat;
+	-webkit-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  -o-filter: grayscale(70%);
+  -ms-filter: grayscale(70%);
+  filter: grayscale(70%);
+}
+
+.banner-clear {
+  height: 250px;
+}
+
+
+@media only screen and (min-width: 40.063em) { 
+    .content {
+      margin-left:4em;
+      margin-right:4em;
+    }
+} /* min-width 641px, medium screens */
+
+.content {
+  min-height: 500px;
+}
+
+.picture {
+  width:100%;
+  height: auto;
+}
+footer {
+  background-color:$footer-color;
+}
+
+.copyright {
+  text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: $jet;
+    background-image: -webkit-linear-gradient(left, #ccc, $jet, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, $jet, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, $jet, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, $jet, #ccc);
+}
+
+#logo-text {
+  position: relative;
+  top: 25%;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: $jet;
+  font-family: "Quicksand";
+}
+
+
+.blinking-cursor {
+  font-weight: 500;
+  font-size: 40px;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $jet;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $jet;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $jet;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $jet;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+.item {
+  background-color: $jet;
+}
+
+.crop { 
+    width: auto; 
+    height: 300px; 
+    overflow: hidden; 
+}
+
+.cait img{ 
+    margin-top: -150px;
+}
+
+
+.stills {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("http://www.google.com/url?sa=i&source=imgres&cd=&ved=0CAYQjBwwAGoVChMIwYfvtaqtyAIVS3s-Ch0nvAYJ&url=http%3A%2F%2Fwww.outsidethefray.com%2Fwp-content%2Fuploads%2F2013%2F02%2FOTF_Crumpled_Paper_05.jpg&psig=AFQjCNHA6e7k-j_6Komj7dBVHhHcQ1imwg&ust=1444203231262344");
+}
+
+.videos {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("https://adellewhitefoot.files.wordpress.com/2013/12/10-1896227-vintage-looping-film-strip-background.jpg");
+}

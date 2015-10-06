@@ -1,0 +1,113 @@
+<section class="stills" id="stills">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>Stills</h1>
+      <hr>
+    </div>
+  </div>
+
+  <div class="row">
+
+  <div class="small-12 medium-5 medium-offset-1 columns">
+    <h2>Philly</h2>
+    <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@philly.first.public_key, :width=>500, :height=>500), cl_image_path(@philly.first.public_key)%></div></li>
+      <%@philly.each do |pic|%>
+      <%next if pic == @philly.first %>
+      <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+      <%end%>
+    </ul>
+  </div>
+
+  <div class="small-12 medium-6 columns">
+  <h2>Cait</h2>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop cait"><%= link_to cl_image_tag(@cait.first.public_key, :width=>500, :height=>500), cl_image_path(@cait.first.public_key)%></div></li>
+    <%@cait.each do |pic|%>
+    <%next if pic == @cait.first %>
+    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+    <%end%>
+  </ul>
+  </div>
+
+  <div class="small-12 medium-5 medium-offset-1 columns">
+  <h2>Zmags</h2>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@zmags.first.public_key, :width=>500, :height=>500), cl_image_path(@zmags.first.public_key)%></div></li>
+    <%@zmags.each do |pic|%>
+    <%next if pic == @zmags.first %>
+    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+    <%end%>
+  </ul>
+  </div>
+
+   <div class="small-12 medium-6 columns">
+  <h2>Paul</h2>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@paul.first.public_key, :width=>500, :height=>500), cl_image_path(@paul.first.public_key)%></div></li>
+    <%@paul.each do |pic|%>
+    <%next if pic == @paul.first %>
+    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+    <%end%>
+  </ul>
+  </div>
+  </div>
+  <br><br>
+</section>
+
+<section class="videos" id="videos">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>Videos</h1>
+      <hr>
+    </div>
+  </div>
+
+  <div class="row">
+
+  <div class="small-12 medium-5 medium-offset-1 columns">
+    <h2>Philly</h2>
+    <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@philly.first.public_key, :width=>500, :height=>500), cl_image_path(@philly.first.public_key)%></div></li>
+      <%@philly.each do |pic|%>
+      <%next if pic == @philly.first %>
+      <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+      <%end%>
+    </ul>
+  </div>
+
+  <div class="small-12 medium-6 columns">
+  <h2>Cait</h2>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop cait"><%= link_to cl_image_tag(@cait.first.public_key, :width=>500, :height=>500), cl_image_path(@cait.first.public_key)%></div></li>
+    <%@cait.each do |pic|%>
+    <%next if pic == @cait.first %>
+    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+    <%end%>
+  </ul>
+  </div>
+
+  <div class="small-12 medium-5 medium-offset-1 columns">
+  <h2>Zmags</h2>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@zmags.first.public_key, :width=>500, :height=>500), cl_image_path(@zmags.first.public_key)%></div></li>
+    <%@zmags.each do |pic|%>
+    <%next if pic == @zmags.first %>
+    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+    <%end%>
+  </ul>
+  </div>
+
+   <div class="small-12 medium-6 columns">
+  <h2>Paul</h2>
+  <ul class="clearing-thumbs clearing-feature" data-clearing>
+    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@paul.first.public_key, :width=>500, :height=>500), cl_image_path(@paul.first.public_key)%></div></li>
+    <%@paul.each do |pic|%>
+    <%next if pic == @paul.first %>
+    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
+    <%end%>
+  </ul>
+  </div>
+  </div>
+  <br><br>
+</section>
