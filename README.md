@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Stories in Ready](https://badge.waffle.io/nyc-fireflies-2015/coffee-mates.png?label=ready&title=Ready)](https://waffle.io/nyc-fireflies-2015/coffee-mates) [![Circle CI](https://circleci.com/gh/nyc-fireflies-2015/mojoe.svg?style=svg)](https://circleci.com/gh/nyc-fireflies-2015/mojoe) [![Code Climate](https://codeclimate.com/github/nyc-fireflies-2015/mojoe/badges/gpa.svg)](https://codeclimate.com/github/nyc-fireflies-2015/mojoe)
 
 # coffee friends
@@ -14,3 +15,6 @@ Coffee Friends was created as a [Dev Bootcamp](https://devbootcamp.com) final pr
 * Expand beyond NYC
 * Allow cafes to update menu items and edit profile
 * Integrate cafe POS systems
+=======
+# jonathan-frey-photography
+>>>>>>> a3b2e75f8a1d62b91ca4bf9b72dbaee944cef1a6
