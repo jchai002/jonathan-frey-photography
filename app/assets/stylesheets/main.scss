@@ -5,6 +5,8 @@
 $jet : #222222;
 $steel: #e6e6e6;
 $footer-color: rgba( #666666, 0.3 );
+$maroon: #A31E39;
+$darkteal: #485C5A;
 
 
 body{
@@ -165,4 +167,33 @@ hr {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("https://adellewhitefoot.files.wordpress.com/2013/12/10-1896227-vintage-looping-film-strip-background.jpg");
+}
+
+.videos h1{
+  color: $maroon;
+}
+
+.videos h2{
+  color: $maroon;
+}
+
+.about,.stills,.videos{
+  padding:50px;
+}
+
+.about img{
+  width:250px;
+  height:250px;
+  border-radius:150px;
+  -webkit-border-radius:150px;
+  -moz-border-radius:150px;
+}
+
+.about h1{
+  color: $darkteal;
+}
+
+.about p{
+  color: $darkteal;
+  font-family: 'Quicksand';
 }

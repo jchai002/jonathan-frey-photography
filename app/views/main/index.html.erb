@@ -2,7 +2,6 @@
   <div class="row">
     <div class="small-12 columns">
       <h1>Stills</h1>
-      <hr>
     </div>
   </div>
 
@@ -29,6 +28,10 @@
     <%end%>
   </ul>
   </div>
+
+  </div>
+
+  <div class="row">
 
   <div class="small-12 medium-5 medium-offset-1 columns">
   <h2>Zmags</h2>
@@ -58,56 +61,51 @@
 <section class="videos" id="videos">
   <div class="row">
     <div class="small-12 columns">
-      <h1>Videos</h1>
-      <hr>
+      <h1>Motion</h1>
     </div>
   </div>
 
   <div class="row">
 
-  <div class="small-12 medium-5 medium-offset-1 columns">
-    <h2>Philly</h2>
-    <ul class="clearing-thumbs clearing-feature" data-clearing>
-    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@philly.first.public_key, :width=>500, :height=>500), cl_image_path(@philly.first.public_key)%></div></li>
-      <%@philly.each do |pic|%>
-      <%next if pic == @philly.first %>
-      <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
-      <%end%>
-    </ul>
+  <div class="small-12 medium-8 medium-centered columns">
+    <h2>Cinematography Reel</h2>
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/117014702" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
   </div>
 
-  <div class="small-12 medium-6 columns">
-  <h2>Cait</h2>
-  <ul class="clearing-thumbs clearing-feature" data-clearing>
-    <li class="clearing-featured-img"><div class="crop cait"><%= link_to cl_image_tag(@cait.first.public_key, :width=>500, :height=>500), cl_image_path(@cait.first.public_key)%></div></li>
-    <%@cait.each do |pic|%>
-    <%next if pic == @cait.first %>
-    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
-    <%end%>
-  </ul>
+  <div class="small-12 medium-8 medium-centered columns">
+  <h2>Field Works</h2>
+   <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/131452353" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
   </div>
 
-  <div class="small-12 medium-5 medium-offset-1 columns">
-  <h2>Zmags</h2>
-  <ul class="clearing-thumbs clearing-feature" data-clearing>
-    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@zmags.first.public_key, :width=>500, :height=>500), cl_image_path(@zmags.first.public_key)%></div></li>
-    <%@zmags.each do |pic|%>
-    <%next if pic == @zmags.first %>
-    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
-    <%end%>
-  </ul>
+  <div class="small-12 medium-8 medium-centered columns">
+  <h2>PSA - Texting and Driving</h2>
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/119309594" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
   </div>
 
-   <div class="small-12 medium-6 columns">
-  <h2>Paul</h2>
-  <ul class="clearing-thumbs clearing-feature" data-clearing>
-    <li class="clearing-featured-img"><div class="crop"><%= link_to cl_image_tag(@paul.first.public_key, :width=>500, :height=>500), cl_image_path(@paul.first.public_key)%></div></li>
-    <%@paul.each do |pic|%>
-    <%next if pic == @paul.first %>
-    <li><%= link_to cl_image_tag(pic.public_key, :width=>500, :height=>500), cl_image_path(pic.public_key)%></li>
-    <%end%>
-  </ul>
+  <div class="small-12 medium-8 medium-centered columns">
+  <h2>Eskenazi Health</h2>
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/81235355" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
   </div>
+
   </div>
   <br><br>
+</section>
+
+<section class="row about" id="about">
+  <div class="medium-6 large-8 columns">
+    <h1>About</h1>
+    <h1>
+    <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+  </div>
+  <div class="medium-6 large-4 columns">
+    <%=image_tag('jonfrey.jpg')%>
+  </div>
 </section>
