@@ -4,8 +4,9 @@ class MainController < ApplicationController
     @cait= CaitPicture.all
     @zmags= ZmagsPicture.all
     @paul = PaulPicture.all
+    @apparatus = ApparatusPicture.all
+    @blackline = BlacklinePicture.all
 
-    @sierra= SierraleonePicture.all
   end
   
 end
