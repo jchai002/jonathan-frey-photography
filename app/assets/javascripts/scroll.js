@@ -49,7 +49,7 @@ $("#contact-button-mobile").click(function() {
 });
 
 $(window).scroll(function() {
-                if ($(this).scrollTop() > 500) {
+                if ($(this).scrollTop() > 800) {
                     $('#go-top').fadeIn(200);
                 } else {
                     $('#go-top').fadeOut(200);
