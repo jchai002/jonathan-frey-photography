@@ -3,7 +3,7 @@ $(document).ready(function() {
 $("#stills-button").click(function() {
     $('html, body').animate({
         scrollTop: $("#stills").offset().top-40
-    }, 1000);
+    }, 500);
 });
 
 $("#videos-button").click(function() {
